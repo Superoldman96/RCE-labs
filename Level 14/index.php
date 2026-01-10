@@ -11,6 +11,7 @@
 
 
 */
+highlight_file(__FILE__);
 
 if(isset($_GET[1]) && strlen($_GET[1]) < 8){
     echo strlen($_GET[1]);
@@ -20,7 +21,7 @@ if(isset($_GET[1]) && strlen($_GET[1]) < 8){
     exit('too long');
 }
 
-highlight_file(__FILE__);
+
 
 
 ?>
